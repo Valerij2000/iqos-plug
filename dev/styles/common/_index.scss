@@ -1,0 +1,28 @@
+.completed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/bg-desktop.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #E3F4FB;
+
+  @media (max-width: 768px) {
+    background-image: url('../images/bg-mobile.webp');
+  }
+}
+
+.completed__title {
+  font-family: 'IQOS-Bold';
+  font-size: 5vmin;
+  text-transform: uppercase;
+  line-height: 120%;
+  text-align: center;
+  color: #000;
+
+  @media (max-width: 768px) {
+    width: 90vmin;
+    font-size: 8vmin;
+  }
+}
